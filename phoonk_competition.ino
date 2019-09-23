@@ -1,10 +1,10 @@
 /*
-  Code by: www.munphurid.com
+  Code by:
   M.Hashir
 
   This is a code for phoonk competition
   When you are ready press the button, and rotate the fan
-  Arduino takes all the readings during 5 seconds duration
+  Arduino takes all the readings during 5 seconds duration and tells the highest reading
 
   Hardware:
   - Arduino
@@ -15,12 +15,12 @@
   Connect one leg of DC motor to GND of Arduino
   Connect other leg of DC motor to pin 11 of Arduino
   Connect one leg of push button to GND
-  Connect other leg of push button to pin 13
+  Connect other leg of push button to pin 12
 */
 
 
 int button = 12;
-int motor = A0;
+int motor = 11;
 int input = 0;
 int maximum = 0;
 void setup() {
